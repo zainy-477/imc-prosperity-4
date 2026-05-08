@@ -13,7 +13,7 @@ Briefly explain the structure of Prosperity 4.
 
 <table>
   <tr>
-    <th colspan="4" align="center">Qualifying - Phase 1 Results</th>
+    <th colspan="4" align="center">Qualifying - Phase 1 Results (485,221 XIRECs)</th>
   </tr>
   <tr>
     <th>Round</th>
@@ -23,22 +23,22 @@ Briefly explain the structure of Prosperity 4.
   </tr>
   <tr>
     <td align="center">1</td>
-    <td align="center">Data</td>
-    <td align="center">Data</td>
-    <td align="center">Data</td>
+    <td align="center">105,692</td>
+    <td align="center">87,995</td>
+    <td align="center">90th</td>
   </tr>
   <tr>
     <td align="center">2</td>
-    <td align="center">Data</td>
-    <td align="center">Data</td>
-    <td align="center">Data</td>
+    <td align="center">77,667</td>
+    <td align="center">213,867</td>
+    <td align="center">277th</td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <th colspan="4" align="center">Final - Phase 2 Results</th>
+    <th colspan="4" align="center">Final - Phase 2 Results (531,123 XIRECs)</th>
   </tr>
   <tr>
     <th>Round</th>
@@ -48,21 +48,21 @@ Briefly explain the structure of Prosperity 4.
   </tr>
   <tr>
     <td align="center">3</td>
-    <td align="center">Data</td>
-    <td align="center">Data</td>
-    <td align="center">Data</td>
+    <td align="center">202,131</td>
+    <td align="center">70,684</td>
+    <td align="center">84th</td>
   </tr>
   <tr>
     <td align="center">4</td>
-    <td align="center">Data</td>
-    <td align="center">Data</td>
-    <td align="center">Data</td>
+    <td align="center">149,166</td>
+    <td align="center">38,814</td>
+    <td align="center">92nd</td>
   </tr>
     <tr>
     <td align="center">5</td>
-    <td align="center">Data</td>
-    <td align="center">Data</td>
-    <td align="center">Data</td>
+    <td align="center">-43,997</td>
+    <td align="center">114,325</td>
+    <td align="center">154th</td>
   </tr>
 </table>
 
