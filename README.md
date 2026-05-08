@@ -4,7 +4,9 @@ This writeup shares our strategies for the algorithmic and manual challenges of 
 
 > Team Members: Alex Zhang, Annanye Naik, Saksham Arora, Zain Hirji
 
+
 # Structural Overview
+
 
 # Competition Overview
 
@@ -13,18 +15,80 @@ Briefly explain the structure of Prosperity 4.
 - 5 rounds
 - Algorithmic + manual challenges
 
-# Team Workflow
 
-## Research Process
+# Round 1
 
+## Algorithmic Challenge
 Describe:
 - how ideas were generated
 - how signals were tested
 - how decisions were made
 
-Example:
-- notebooks for exploration
-- replay system for backtesting
-- parameter sweeps
-- visualization tooling
+## Manual Challenge
+Describe:
+- our thought process
+- the tools we used
+- how decisions were made
 
+
+# Round 2
+
+## Algorithmic Challenge
+Describe:
+- how ideas were generated
+- how signals were tested
+- how decisions were made
+
+## Manual Challenge
+Describe:
+- our thought process
+- the tools we used
+- how decisions were made
+
+
+# Round 3
+
+## Algorithmic Challenge
+Describe:
+- how ideas were generated
+- how signals were tested
+- how decisions were made
+
+## Manual Challenge
+Describe:
+- our thought process
+- the tools we used
+- how decisions were made
+
+
+# Round 4
+
+## Algorithmic Challenge
+Describe:
+- how ideas were generated
+- how signals were tested
+- how decisions were made
+
+## Manual Challenge
+Describe:
+- our thought process
+- the tools we used
+- how decisions were made
+
+
+# Round 5
+
+## Algorithmic Challenge
+Describe:
+- how ideas were generated
+- how signals were tested
+- how decisions were made
+
+## Manual Challenge
+Describe:
+- our thought process
+- the tools we used
+- how decisions were made
+
+
+# Takeaways
