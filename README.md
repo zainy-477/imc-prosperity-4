@@ -3,6 +3,8 @@
 This writeup shares our strategies for the algorithmic and manual challenges of IMC Prosperity 4 (2026), which brought us to a global rank of 154th out of 22000+ teams - with a total score of 485,221 XIRECs in Phase 1 and 531,123 XIRECs in Phase 2. This was the first attempt at a quantitative trading competition for all of us, and we formed a team through the Discord server created by IMC for this competition. 
 
 > Team Members: Alex Zhang, Annanye Naik, Saksham Arora, Zain Hirji
+* **Research(X) = 200,000 $\mathbf{\cdot \frac{log(1 + X)}{log(1 + 100)}}$**
+* **Scale(X) = 7 $\mathbf{\cdot \frac{X}{100}}$**
 
 ## Competition Overview
 
