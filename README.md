@@ -81,18 +81,13 @@ Describe:
 - how decisions were made
 
 ## Manual Challenge
-Describe:
-- our thought process
-- the tools we used
-- how decisions were made
-
 The first manual challenge of the competition was a trivial optimisation. We were given static orderbooks for two products - **DRYLAND_FLAK** and **EMBER_MUSHROOM** - and had to submit our own buy or sell order for each, at a chosen price and quantity. The exchange would then select a single clearing price that maximised the total traded volume from the orderbook (including the orders that we submitted) and broke ties by choosing the higher price. Our orders would be executed at this clearing price. Finally, we would be able to sell any inventory that we had acquired at fixed prices of 30 XIRECs for **DRYLAND_FLAK** and 20 XIRECs for **EMBER_MUSHROOM**, with a 0.10 XIREC trading fee per unit subtracted from the latter. 
 
 We created Python code to numerically optimise this problem, and submitted the following two orders:
 * Buy **DRYLAND_FLAK** at a price of 30 XIRECs and volume of 9999 units.
 * Buy **EMBER_MUSHROOM** at a price of 17 XIRECs and volume of 19999 units.
-* 
-This was one of the optimal solutions and as a result we came joint first in Round 1 of Manual. It is interesting to note the volume of units that we submitted - if we were to increase these by 1, the clearing price would have increased by 1 XIREC and our profit would have shrunk by a large margin.
+
+This was one of the optimal solutions and as a result we came joint first in Round 1 of Manual. While this posed a problem that could easily be solved by brute force programming, it is interesting to think about why we obtain the results we do. For example, take a look at the volume of units we chose for our orders - if we were to increase these by 1, the clearing price would have increased by 1 XIREC and our profit would have shrunk by a large margin.
 
 # Round 2
 
