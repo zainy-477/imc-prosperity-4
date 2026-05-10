@@ -99,15 +99,15 @@ Describe:
 
 ## Manual Challenge
 This manual challenge introduced an element of game theory. The premise was simple. We were given a budget of 50,000 XIRECs which we were able to split across three pillars (Research, Scale, Speed), each of which output a  multiplier according to our investment. An integer percentage X had to be allocated to each pillar, which would produce the following multiplier: 
-* Research(X) = 200,000 $\cdot$ $\frac{\log(1 + X)}{\log(1 + 100)}$. This grows logarithmically from 0 to 200,000.
-* Scale(X) = 7 $\cdot$ $\frac{X}{100}$. This grows linearly from 0 to 7.
-* Speed was rank-based across all players. The lowest speed investment would receive a multiplier of 0.1 and the highest speed investment would receive a multiplier of 0.9, while everyone inbetween would recieve a multiplier linearly scaled by rank.
+* **Research(X) = 200,000 $\cdot$ $\frac{\log(1 + X)}{\log(1 + 100)}$.** This grows logarithmically from 0 to 200,000.
+* **Scale(X) = 7 $\cdot$ $\frac{X}{100}$.** This grows linearly from 0 to 7.
+* **Speed was rank-based across all players.** *The lowest speed investment would receive a multiplier of 0.1 and the highest speed investment would receive a multiplier of 0.9, while everyone inbetween would recieve a multiplier linearly scaled by rank.*
 
-The final profit would be assigned via PnL = (Research $\times$ Scale $\times$ Speed) - Budget_Used.
+The final profit would be assigned via **PnL = (Research $\times$ Scale $\times$ Speed) - Budget_Used**.
 
 For a given Speed investment, the remaining Research and Speed could be numerically optimised (the optimal strategy was always to use all of the allocated budget). Thus, our strategy revolved around trying to predict the multiplier one would receive for a given Speed investment. 
 
-We assumed that a number of teams would invest nothing into Speed and that another large portion would bid up to 10% in order to try and overcut others. Furthermore, we predicted that a second large wave of teams around the 30 - 40% mark who would try to reach into the upper echelons of the multiplier by outbidding all 'sensible' investments. In the discord server and indeed from within our own team, the optimal Speed investment, as dictated by game theory, emerged to be 37%. As a result, many of us wanted incorporate a small increase to 38 or 39% as a safety factor. However, by recognising ourselves as a part of the 'game', we ultimately decided to go beyond what we thought was necessary and invest 45% into Speed. This resulted in optimal Research and Scaling investments of 14% and 41% respectively.
+We assumed that a number of teams would invest nothing into Speed and that another large portion would bid up to 10% in order to try and overcut others. Furthermore, we predicted that a second large wave of teams around the 30 - 40% mark who would try to reach into the upper echelons of the multiplier by outbidding all 'sensible' investments. In the discord server and indeed from within our own team, the optimal Speed investment, as dictated by game theory, emerged to be 37%. As a result, many of us wanted incorporate a small increase to 38% or 39% as a safety factor. However, by recognising ourselves as a part of the 'game', we ultimately decided to go beyond what we thought was necessary and invest 45% into Speed. This resulted in optimal Research and Scaling investments of 14% and 41% respectively.
 
 <table>
   <tr>
@@ -135,7 +135,7 @@ We assumed that a number of teams would invest nothing into Speed and that anoth
   </tr>
 </table>
 
-This resulted in an overall profit of **213,867 XIRECs**, compared to the optimal *217,869 XIRECs* had we invested the optimal 42% in Speed, so we were very happy with our decision. Though, in hindsight, we should have considered that round-number bias caused large spikes in teams to choose multiples of 5 for investment in Speed, and gone slightly lower!
+This resulted in an overall profit of **213,867 XIRECs**, compared to the optimal *217,869 XIRECs* had we invested the optimal 42% in Speed, so we were very happy with our decision. Though, in hindsight, we should have considered that round-number bias caused large spikes in teams to choose multiples of 5% for investment in Speed, and gone slightly lower!
 
 
 # Round 3
