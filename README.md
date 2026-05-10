@@ -107,9 +107,38 @@ This manual challenge introduced an element of game theory. The premise was simp
 * Research(X) = 200,000 $\times$ $\frac{\log(1 + X)}{\log(1 + 100)}$. This grows logarithmically from 0 to 200,000.
 * Scale(X) = 7 $\times$ $\frac{X}{100}$. This grows linearly from 0 to 7.
 * Speed was rank-based across all players. The lowest speed investment would receive a multiplier of 0.1 and the highest speed investment would receive a multiplier of 0.9, while everyone inbetween would recieve a multiplier linearly scaled by rank.
-The final profit would be assigned via PnL = (Research $\times$ Scale $\times$ Speed) - Budget Used.
 
+The final profit would be assigned via PnL = (Research $\times$ Scale $\times$ Speed) - Budget_Used.
 
+For a given Speed investment, the remaining Research and Speed could be numerically optimised (the optimal strategy was always to use all of the allocated budget). Thus, our strategy revolved around trying to predict the multiplier one would receive for a given Speed investment. 
+
+We assumed that a number of teams would invest nothing into Speed and that another large portion would bid up to 10% in order to try and overcut others. Furthermore, we predicted that a second large wave of teams around the 30 - 40% mark who would try to reach into the upper echelons of the multiplier by outbidding all 'sensible' investments. In the discord server and indeed from within our own team, the optimal Speed investment, as dictated by game theory, emerged to be 37%. As a result, many of us wanted incorporate a small increase to 38 or 39% as a safety factor. However, by recognising ourselves as a part of the 'game', we ultimately decided to go beyond what we thought was necessary and invest 45% into Speed. This resulted in optimal Research and Scaling investments of 14% and 41% respectively.
+
+<table>
+  <tr>
+    <th colspan="4" align="center">Invest & Expand - Round 2 Manual Challenge</th>
+  </tr>
+  <tr>
+    <th>Pillar</th>
+    <th>Investment</th>
+    <th>Multiplier</th>
+  </tr>
+  <tr>
+    <td align="center">Research</td>
+    <td align="center">14%</td>
+    <td align="center">117,356 XIRECs</td>
+  </tr>
+  <tr>
+    <td align="center">Scale</td>
+    <td align="center">41%</td>
+    <td align="center">X 2.9</td>
+  </tr>
+    <tr>
+    <td align="center">Speed</td>
+    <td align="center">45%</td>
+    <td align="center">X 0.78</td>
+  </tr>
+</table>
 
 
 
