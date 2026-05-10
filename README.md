@@ -126,12 +126,12 @@ We assumed that a number of teams would invest nothing into Speed and that anoth
   <tr>
     <td align="center">Scale</td>
     <td align="center">41%</td>
-    <td align="center">$\times$2.9</td>
+    <td align="center">$\times$ 2.9</td>
   </tr>
     <tr>
     <td align="center">Speed</td>
     <td align="center">45%</td>
-    <td align="center">$\times$0.78</td>
+    <td align="center">$\times$ 0.78</td>
   </tr>
 </table>
 
