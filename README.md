@@ -98,14 +98,9 @@ Describe:
 - how decisions were made
 
 ## Manual Challenge
-Describe:
-- our thought process
-- the tools we used
-- how decisions were made
-
 This manual challenge introduced an element of game theory. The premise was simple. We were given a budget of 50,000 XIRECs which we were able to split across three pillars (Research, Scale, Speed), each of which output a  multiplier according to our investment. An integer percentage X had to be allocated to each pillar, which would produce the following multiplier: 
-* Research(X) = 200,000 $\times$ $\frac{\log(1 + X)}{\log(1 + 100)}$. This grows logarithmically from 0 to 200,000.
-* Scale(X) = 7 $\times$ $\frac{X}{100}$. This grows linearly from 0 to 7.
+* Research(X) = 200,000 $\cdot$ $\frac{\log(1 + X)}{\log(1 + 100)}$. This grows logarithmically from 0 to 200,000.
+* Scale(X) = 7 $\cdot$ $\frac{X}{100}$. This grows linearly from 0 to 7.
 * Speed was rank-based across all players. The lowest speed investment would receive a multiplier of 0.1 and the highest speed investment would receive a multiplier of 0.9, while everyone inbetween would recieve a multiplier linearly scaled by rank.
 
 The final profit would be assigned via PnL = (Research $\times$ Scale $\times$ Speed) - Budget_Used.
@@ -131,12 +126,12 @@ We assumed that a number of teams would invest nothing into Speed and that anoth
   <tr>
     <td align="center">Scale</td>
     <td align="center">41%</td>
-    <td align="center">X 2.9</td>
+    <td align="center">$\times$2.9</td>
   </tr>
     <tr>
     <td align="center">Speed</td>
     <td align="center">45%</td>
-    <td align="center">X 0.78</td>
+    <td align="center">$\times$0.78</td>
   </tr>
 </table>
 
