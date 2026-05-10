@@ -135,7 +135,6 @@ We assumed that a number of teams would invest nothing into Speed and that anoth
   </tr>
 </table>
 
-
 This resulted in an overall profit of **213,867 XIRECs**, compared to the optimal *217,869 XIRECs* had we invested the optimal 42% in Speed, so we were very happy with our decision. Though, in hindsight, we should have considered that round-number bias caused large spikes in teams to choose multiples of 5% for investment in Speed, and gone slightly lower!
 
 
