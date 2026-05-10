@@ -5,7 +5,8 @@ This writeup shares our strategies for the algorithmic and manual challenges of 
 > Team Members: Alex Zhang, Annanye Naik, Saksham Arora, Zain Hirji
 * **Research(X) = 200,000 $\mathbf{\cdot \frac{log(1 + X)}{log(1 + 100)}}$**
 * **Scale(X) = 7 $\mathbf{\cdot \frac{X}{100}}$**
-
+* **Research(X)** $= \mathbf{200{,}000}\boldsymbol{\cdot \frac{\mathbf{log}(1 + X)}{\mathbf{log}(1 + 100)}}$
+* **Scale(X)** $= \mathbf{7}\boldsymbol{\cdot \frac{X}{100}}$
 ## Competition Overview
 
 Briefly explain the structure of Prosperity 4.
