@@ -81,11 +81,11 @@ Describe:
 - how decisions were made
 
 ## Manual Challenge
-The first manual challenge of the competition was a trivial optimisation. We were given static orderbooks for two products - **DRYLAND_FLAK** and **EMBER_MUSHROOM** - and had to submit our own buy or sell order for each, at a chosen price and quantity. The exchange would then select a single clearing price that maximised the total traded volume from the orderbook (including the orders that we submitted) and broke ties by choosing the higher price. Our orders would be executed at this clearing price. Finally, we would be able to sell any inventory that we had acquired at fixed prices of 30 XIRECs for **DRYLAND_FLAK** and 20 XIRECs for **EMBER_MUSHROOM**, with a 0.10 XIREC trading fee per unit subtracted from the latter. 
+The first manual challenge of the competition was a trivial optimisation. We were given static orderbooks for two products - **DRYLAND FLAK** and **EMBER MUSHROOM** - and had to submit our own buy or sell order for each, at a chosen price and quantity. The exchange would then select a single clearing price that maximised the total traded volume from the orderbook (including the orders that we submitted) and broke ties by choosing the higher price. Our orders would be executed at this clearing price. Finally, we would be able to sell any inventory that we had acquired at fixed prices of 30 XIRECs for **DRYLAND FLAK** and 20 XIRECs for **EMBER MUSHROOM**, with a 0.10 XIREC trading fee per unit subtracted from the latter. 
 
 We created Python code to numerically optimise this problem, and submitted the following two orders:
-* Buy **DRYLAND_FLAK** at a price of 30 XIRECs and volume of 9999 units.
-* Buy **EMBER_MUSHROOM** at a price of 17 XIRECs and volume of 19999 units.
+* Buy **DRYLAND FLAK** at a price of 30 XIRECs and volume of 9999 units.
+* Buy **EMBER MUSHROOM** at a price of 17 XIRECs and volume of 19999 units.
 
 This was one of the optimal solutions and as a result we came joint first in Round 1 of Manual. While this posed a problem that could easily be solved by brute force programming, it is interesting to think about why we obtain the results we do. For example, take a look at the volume of units we chose for our orders - if we were to increase these by 1, the clearing price would have increased by 1 XIREC and our profit would have shrunk by a large margin.
 
@@ -154,7 +154,7 @@ We were allowed to submit two bids. The first bid had no strings attached and wa
 
 The Nash equilibrium occured for a first bid of 751 XIRECs and a second bid of 836 XIRECs. Based on last years' results, where the average of 287 had only been slighly above the optimum of 284, we naively chose to submit a second bid of 846 XIRECs and corresponding optimal first bid of 756 XIRECs. The average second bid ended up being **859 XIRECs** and so we were heavily penalised, resulting in a PnL of **70,864 XIRECs** as opposed to the optimal *~80,000 XIRECs* - luckily, not a significant difference.
 
-In hindsight, we should have anticipated the aggressive behaviour of players from the Round 2 manual challenge. In addition, the penalty for increasing the second bid was relatively low, which may have incentivised many teams to bid much higher than they had last year.
+In hindsight, we should have anticipated the aggressive behaviour of players from the Round 2 manual challenge. In addition, the loss in profit for increasing the second bid was relatively low, which may have incentivised many teams to bid much higher than they had last year.
 
 
 # Round 4
@@ -170,6 +170,10 @@ Describe:
 - our thought process
 - the tools we used
 - how decisions were made
+
+This challenge introduced us to **AETHER CRYSTAL** product as well as a variety of options. 
+<img width="1625" height="1233" alt="image" src="https://github.com/user-attachments/assets/9e560efd-9fc4-4081-a82a-44c204b7af56" />
+
 
 
 # Round 5
