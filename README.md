@@ -171,9 +171,21 @@ Describe:
 - the tools we used
 - how decisions were made
 
-This challenge introduced us to **AETHER CRYSTAL** product as well as a variety of options. 
-<img width="1625" height="1233" alt="image" src="https://github.com/user-attachments/assets/9e560efd-9fc4-4081-a82a-44c204b7af56" />
+This challenge introduced us to **AETHER CRYSTAL** product as well as a variety of options, as seen in the image below. The important things to note about options and these ones specifically are:
+* An option is a contract that gives the buyer the right (but not obligation) to buy or sell an underlying asset at a specific price (called the strike price of the option) within a certain timeframe.
+* A **CALL Option** gives the right to buy while a **PUT Option** gives the right to sell.
+* At expiry, the CALL options are "in the money" if the underlying price is above their strike price (your profit per option = price - strike price) or worthless if the underlying price is below their strike price (you make a loss if you purchase the asset above its price). Similar logic can be applied to PUT options.
+* The **CHOOSER Option** converts to the side that is "in the money" at a certain time before expiry (e.g. if the underlying price is above the strike price 7 days before expiry, it converts to a CALL option) and expires like a standard PUT or CALL Option. 
+* The **BINARY PUT Option** operates similar to a PUT option, except it pays a fixed amount if the option is "in the money" at expiry.
+* The **KNOCK-OUT PUT Option** will have a strike price and a *barrier price below the strike price*. If the value of the underlying asset ever falls beneath the barrier price, the option is knocked-out and expires worthless. However, if this barrier price is never breached then the option expires as a standard PUT option.
 
+<img width="1389" height="1221" alt="image" src="https://github.com/user-attachments/assets/1a293d4e-2ca0-47f3-9324-2bf6fe5152fe" />
+
+The underlying **AETHER CRYSTAL** would be simulated using Geometric Brownian Motion with zero risk-neutral drift and a fixed annualised volatility of 251%, assuming 252 trading days per year. In addition, prices would evolve on a discrete grid of 4 steps per trading day. Our final score would be the average PnL across 100 simulations of the underlying, **which is a very small sample size with huge variance**.  
+
+We tackled this challenge via a two-stage process. The first was to estimate the fair value of each option contract (which had a size of 3,000) and determine whether there were any contracts that were valued above the ask or below the bid, from which we could expect to make a profit. The second was to hedge our exposure to the market, due to the large volatility that we expected from our result. Hedging is a strategy used to reduce risk and limit potential losses; essentially, it involves taking an opposite position in a related asset, so that if one investment loses money then the other gains money.
+
+Talk about Black-Shoales and our simiulation (insert a picture of it too).
 
 
 # Round 5
