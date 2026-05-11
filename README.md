@@ -149,7 +149,7 @@ Describe:
 ## Manual Challenge
 This was very similar to last years' Round 3 manual challenge, in Prosperity 3. There were a number of counterparties willing to sell the **ORNAMENTAL BIO-POD** product, each with a reserve price above which they would accept a bid. *Their distribution of asks was uniformly distributed at increments of 5 between 670 and 920 XIRECs.* We would later be able to sell all inventory at 920 XIRECs. 
 
-We were allowed to submit two bids. The first bid had no strings attached and was thus a pure optimisation problem. However, if our second bid was lower than or equal to the mean of second bids of all players, our PnL would be penalised by a cubic penalty $\left(\frac{920-\text{avg\_b2}}{920-b2}\right)^3$. As the first bid was dependent on the second bid, it could only be optimised after we chose our second bid.
+We were allowed to submit two bids. The first bid had no strings attached and was thus a pure optimisation problem. However, if our second bid was lower than or equal to the mean of second bids of all players, our PnL would be penalised by a cubic penalty $\left(\frac{920-\text{avg-b2}}{920-b2}\right)^3$. As the first bid was dependent on the second bid, it could only be optimised after we chose our second bid.
 
 
 The Nash equilibrium occured for a first bid of 751 XIRECs and a second bid of 836 XIRECs. Based on last years results, where the average of 287 had only been slighly above the optimum of 284, we naively chose to submit a second bid of 846 XIRECs and corresponding optimal first bid of 756 XIRECs. The average second bid ended up being **859 XIRECs** and so we were heavily penalised, resulting in a PnL of **70,864 XIRECs** as opposed to the optimal *~80,000 XIRECs* - luckily, not a significant difference.
