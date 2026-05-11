@@ -154,7 +154,7 @@ We were allowed to submit two bids. The first bid had no strings attached and wa
 
 The Nash equilibrium occured for a first bid of 751 XIRECs and a second bid of 836 XIRECs. Based on last years' results, where the average of 287 had only been slighly above the optimum of 284, we naively chose to submit a second bid of 846 XIRECs and corresponding optimal first bid of 756 XIRECs. The average second bid ended up being **859 XIRECs** and so we were heavily penalised, resulting in a PnL of **70,864 XIRECs** as opposed to the optimal *~80,000 XIRECs* - luckily, not a significant difference.
 
-In hindsight, we should have anticipated the aggressive behaviour of players from the previous manual challenge. In addition, the penalty for increasing the second bid was relatively low, which may have incentivised many teams to bid much higher than last year.
+In hindsight, we should have anticipated the aggressive behaviour of players from the Round 2 manual challenge. In addition, the penalty for increasing the second bid was relatively low, which may have incentivised many teams to bid much higher than last year.
 
 
 # Round 4
