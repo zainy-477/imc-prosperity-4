@@ -171,7 +171,7 @@ Describe:
 - the tools we used
 - how decisions were made
 
-This challenge introduced us to **AETHER CRYSTAL** product as well as a variety of options, as seen in the image below. The important things to note about options and these ones specifically are:
+This challenge introduced us to the **AETHER CRYSTAL** product as well as a variety of options, as seen in the image below. The important things to note about options and these ones specifically are:
 * An option is a contract that gives the buyer the right (but not obligation) to buy or sell an underlying asset at a specific price (called the strike price of the option) within a certain timeframe.
 * A **CALL Option** gives the right to buy while a **PUT Option** gives the right to sell.
 * At expiry, the CALL options are "in the money" if the underlying price is above their strike price (your profit per option = price - strike price) or worthless if the underlying price is below their strike price (you make a loss if you purchase the asset above its price). Similar logic can be applied to PUT options.
@@ -180,6 +180,7 @@ This challenge introduced us to **AETHER CRYSTAL** product as well as a variety 
 * The **KNOCK-OUT PUT Option** will have a strike price and a *barrier price below the strike price*. If the value of the underlying asset ever falls beneath the barrier price, the option is knocked-out and expires worthless. However, if this barrier price is never breached then the option expires as a standard PUT option.
 
 <img width="1389" height="1221" alt="image" src="https://github.com/user-attachments/assets/1a293d4e-2ca0-47f3-9324-2bf6fe5152fe" />
+<br><br>
 
 The underlying **AETHER CRYSTAL** would be simulated using Geometric Brownian Motion with zero risk-neutral drift and a fixed annualised volatility of 251%, assuming 252 trading days per year. In addition, prices would evolve on a discrete grid of 4 steps per trading day. Our final score would be the average PnL across 100 simulations of the underlying, **which is a very small sample size with huge variance**.  
 
