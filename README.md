@@ -2,7 +2,12 @@
 # IMC Prosperity 4 - Rocky Mountain Goats
 This writeup shares our strategies for the algorithmic and manual challenges of IMC Prosperity 4 (2026), which brought us to a global rank of 154th out of 18000+ teams - with a total score of 485,221 XIRECs in Phase 1 and 531,123 XIRECs in Phase 2. This was the first attempt at a quantitative trading competition for all of us, and we formed a team through the Discord server created by IMC for this competition. 
 
-> Team Members: Alex Zhang, Annanye Naik, Saksham Arora, Zain Hirji
+> Team Members: Zain Hirji, Alex Zhang, Saksham Arora, Annanye Naik
+
+| Zain Hirji | Alex Zhang | Saksham Arora | Annanye Naik |
+|---|---|---|---|
+| <img width="1272" height="1696" alt="WhatsApp Image 2026-05-13 at 22 33 33" src="https://github.com/user-attachments/assets/7020f011-6cab-476a-9c4e-360c6d51a901" />
+ | beep | bop | boop |
 
 ## Competition Overview
 
