@@ -193,10 +193,10 @@ We tackled this challenge via a two-stage process. The first was to estimate the
 The **Black-Shoales method** is a formula used to estimate the current fair value of an option. It can be used for regular call and put options, as well as binary options. The remaining chooser and knock-out put options had no mathematical equivalent, so we simulated results over multiple runs to calculate their expected value. Based on these expected values, we chose an initial set of options for investment to maximise expected value (i.e. mean profit from the 100 simulation runs) and obtained the following results:
 
 <p float="left">
-  <img src="<img width="1987" height="807" alt="image" src="https://github.com/user-attachments/assets/0b3867a2-b6f7-4bf8-8ffe-0e62bc2f3f2c" />
-" width="48%" />
-  <img src="<img width="1127" height="833" alt="image" src="https://github.com/user-attachments/assets/653c0c1c-d830-4d59-9232-f3d601c54431" />
-" width="48%" />
+  <img src=<img width="1987" height="807" alt="image" src="https://github.com/user-attachments/assets/0b3867a2-b6f7-4bf8-8ffe-0e62bc2f3f2c" />
+ width="48%" />
+  <img src=<img width="1127" height="833" alt="image" src="https://github.com/user-attachments/assets/653c0c1c-d830-4d59-9232-f3d601c54431" />
+ width="48%" />
 </p>
 
 Talk about Black-Shoales and our simiulation (insert a picture of it too).
