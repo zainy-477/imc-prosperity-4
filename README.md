@@ -84,7 +84,7 @@ Describe:
 - how signals were tested
 - how decisions were made
 
-## Manual Challenge
+## Manual Challenge - Static Orderbook
 The first manual challenge of the competition was a trivial optimisation. We were given static orderbooks for two products - **DRYLAND FLAK** and **EMBER MUSHROOM** - and had to submit our own buy or sell order for each, at a chosen price and quantity. The exchange would then select a single clearing price that maximised the total traded volume from the orderbook (including the orders that we submitted) and broke ties by choosing the higher price. Our orders would be executed at this clearing price. Finally, we would be able to sell any inventory that we had acquired at fixed prices of 30 XIRECs for **DRYLAND FLAK** and 20 XIRECs for **EMBER MUSHROOM**, with a 0.10 XIREC trading fee per unit subtracted from the latter. 
 
 We created Python code to numerically optimise this problem, and submitted the following two orders:
@@ -101,7 +101,7 @@ Describe:
 - how signals were tested
 - how decisions were made
 
-## Manual Challenge
+## Manual Challenge - Game Theory
 This manual challenge introduced an element of game theory. The premise was simple. We were given a budget of 50,000 XIRECs which we were able to split across three pillars (Research, Scale, Speed), each of which output a  multiplier according to our investment. An integer percentage X had to be allocated to each pillar, which would produce the following multiplier: 
 * **Research(X)** = 200,000 $\cdot$ $\frac{\log(1 + X)}{\log(1 + 100)}$. This grows logarithmically from 0 to 200,000.
 * **Scale(X)** = 7 $\cdot$ $\frac{X}{100}$. This grows linearly from 0 to 7.
@@ -150,7 +150,7 @@ Describe:
 - how signals were tested
 - how decisions were made
 
-## Manual Challenge
+## Manual Challenge - Game Theory
 This was very similar to last years' Round 3 manual challenge, in Prosperity 3. There were a number of counterparties willing to sell the **ORNAMENTAL BIO-POD** product, each with a reserve price above which they would accept a bid. *Their distribution of asks was uniformly distributed at increments of 5 between 670 and 920 XIRECs.* We would later be able to sell all inventory at 920 XIRECs. 
 
 We were allowed to submit two bids. The first bid had no strings attached and was thus a pure optimisation problem. However, if our second bid was lower than or equal to the mean of second bids of all players, our PnL would be penalised by a cubic penalty $\left(\frac{920-\text{avg-b2}}{920-b2}\right)^3$. As the first bid was dependent on the second bid, it could only be optimised after we chose our second bid.
@@ -169,7 +169,7 @@ Describe:
 - how signals were tested
 - how decisions were made
 
-## Manual Challenge
+## Manual Challenge - Options & Hedging
 This challenge introduced us to the **AETHER CRYSTAL** product as well as a variety of options, as seen in the image below. The important things to note about options and these ones specifically are:
 * An option is a contract that gives the buyer the right (but not obligation) to buy or sell an underlying asset at a specific price (called the strike price of the option) within a certain timeframe.
 * A **CALL Option** gives the right to buy while a **PUT Option** gives the right to sell.
@@ -225,11 +225,35 @@ Describe:
 - how signals were tested
 - how decisions were made
 
-## Manual Challenge
-Describe:
-- our thought process
-- the tools we used
-- how decisions were made
+## Manual Challenge - News Trading
+The final manual challenge was identical in format to last year - a news trading round! We were super excited about it - although it involved less technical rigour than other rounds, it was very engaging and inspired many thought-provoking debates among us. There were 9 commodities presented to us, along with the *ASHFLOW ALPHA News Article* describing recent news relating to these commodities. We had a budget of *1,000,000 XIRECs* with which to buy or sell these commodities, and we would reap the rewards or losses of a *one-day return*. In addition, there was a trading fee of $\text{proportion}^2 \times 1{,}000{,}000$ depending on the proportion of the budget that we spent on each commodity. Given knowledge of the returns, it was possible to write a script that found the optimal allocation among commodities (taking the trading fee into account), so we focussed on estimating the one-day movements of these commodities.
+
+Our first challenge was finding a prior off which to base our return predictions. While the Frankfurt Hedgehogs listed the price movements for the commodities in Prosperity 3's news trading round, they did not attach the corresponding news article. After much digging, we stumbed across an article that provided this news article for us! For the benefit of future Prosperity participants, we attach the **Prosperity 3 News Trading** article and results below:
+
+<div style="display: flex; align-items: flex-start; gap: 24px;">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/db05ba29-abe2-488e-8a23-e0826f15fee4" />
+
+<table>
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Actual Movement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Haystacks</td><td>-0.48%</td></tr>
+    <tr><td>Ranch Sauce</td><td>-0.72%</td></tr>
+    <tr><td>Cacti Needle</td><td>-41.20%</td></tr>
+    <tr><td>Solar Panels</td><td>-8.90%</td></tr>
+    <tr><td>Red Flags</td><td>50.90%</td></tr>
+    <tr><td>VR Monocle</td><td>22.40%</td></tr>
+    <tr><td>Quantum Coffee</td><td>-66.79%</td></tr>
+    <tr><td>Moonshine</td><td>3.00%</td></tr>
+    <tr><td>Striped shirts</td><td>0.21%</td></tr>
+  </tbody>
+</table>
+
+</div>
 
 
 # Takeaways
