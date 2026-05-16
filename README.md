@@ -233,7 +233,7 @@ Our first challenge was finding a prior off which to base our return predictions
 <table>
   <tr>
     <td style="vertical-align: top; width: 50%;">
-      <img src="image.png" alt="image" width="500">
+      <img src="https://github.com/user-attachments/assets/98871d10-df07-4849-8ee5-c894269ed14a" alt="image" width="500">
     </td>
     <td style="vertical-align: top; width: 50%;">
       <table>
