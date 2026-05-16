@@ -197,19 +197,28 @@ The **Black-Shoales method** is a formula used to estimate the current fair valu
   <img src="https://github.com/user-attachments/assets/4b3b6e1c-d31a-4fbf-a6b8-062ddcf84877" width="33%" />
 </p>
 
-Our main concern was the low expected value from the 60 CALL (3 week) option, around 2000 XIRECs (out of a 160000+ XIREC total mean), and its large negative tail. As a result, we made the decision to exclude it from our final submission. As seen in the statistics below, this would increase our win percentage by 5% and significantly reduce our loss in the worst-case scenarios, with only a small decrease in mean profit. The flip side to this was a large decrease in the median profit, due to the volatility of this option, but we were willing to accept that. This is because we assumed the Prosperity team would recompute the scenario if excessive profits were achieved, so results would be biased toward lower profits.
-
-| With 60 CHOOSER | Without 60 CHOOSER |
-|---|---|
-| <img width="911" height="448" alt="image" src="https://github.com/user-attachments/assets/66000f1a-baf4-4118-9b0a-0a6c571cde52" />
- | <img width="932" height="444" alt="image" src="https://github.com/user-attachments/assets/4b4a7f54-711e-41c1-82b2-ccb30116fdac" /> |
+Our main concern was the low expected value from the 60 CALL (3 week) option, around 2000 XIRECs (out of a 160000+ XIREC total mean), and its large negative tail. As a result, we made the decision to exclude it from our final submission. As seen in the statistics below, this would increase our win percentage (scenarios in which we were profitable) by 5% and significantly reduce our loss in the worst-case scenarios, with only a small decrease in mean profit. The flip side to this was a large decrease in the median profit, due to the volatility of this option, but we were willing to accept that. This is because we assumed the Prosperity team would recompute the scenario if excessive profits were achieved, so results would be biased toward lower profits.
 
 | With 60 CHOOSER | Without 60 CHOOSER |
 |---|---|
 | ![](https://github.com/user-attachments/assets/66000f1a-baf4-4118-9b0a-0a6c571cde52) | ![](https://github.com/user-attachments/assets/4b4a7f54-711e-41c1-82b2-ccb30116fdac) |
 
-Talk about Black-Shoales and our simiulation (insert a picture of it too).
+Finally, we focussed on hedging. Initially, we tried to reason through the options we should choose for hedging and the quantity to buy or sell. These provided improved results as we figured out the options to hedge against our current selection, but the complexity of available options meant that we were unable to nail down the best quantities. Therefore, we ran a grid search across the options that offered us the best hedging options, and ended up submitting the following:
+* Buy 50 x 50 PUT (2 week) option [PROFITABLE]
+* Buy 50 x 50 CALL (2 week) option [PROFITABLE]
+* Sell 50 x 50 CHOOSER (2/3 week) option [PROFITABLE]
+* Sell 50 x 40 BINARY PUT (3 week) option [PROFITABLE]
+* Buy 500 x 45 KNOCKOUT PUT (3 week) option [PROFITABLE]
+* Buy 25 x 50 CALL (3 week) option [HEDGING]
+* Buy 50 x 45 PUT (3 week) option [HEDGING]
 
+| Max Mean Profit (without 60 CHOOSER) | Final Submission |
+|---|---|
+| ![](https://github.com/user-attachments/assets/4b4a7f54-711e-41c1-82b2-ccb30116fdac) | ![](https://github.com/user-attachments/assets/9ede53cb-2f53-45d3-a617-025757354f37) |
+
+At a small cost to the mean and median profit, our hedging choices significantly reduced our worst case scenarios and improved our win percentage by a further 4%, which we belived to be essential in a game where the team was likely to be incentivised to punish high volatility. Higher win rates were possible, but we didn't believe the drop in expected value to be worth it. Unfortunately, even with hedging, there was a large portion of luck involved in this round - the most of any manual round, by a large margin. The team that obtained the highest profit in Round 4 Manual, *PigameforTrading*, went on to win the Manual Challenge.
+
+In the end, we obtained a profit of **38,814 XIRECs**, compared to the mean *2,310 XIRECs*, median *22,618 XIRECs*, and maximum *177,980 XIRECs*. Although this was a little disappointing, we were happy with our strategy and would not have changed it if given the chance to repeat the round with a different seed.
 
 # Round 5
 
