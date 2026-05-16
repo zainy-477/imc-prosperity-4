@@ -7,7 +7,9 @@ This writeup shares our strategies for the algorithmic and manual challenges of 
 | Zain Hirji | Alex Zhang | Saksham Arora | Annanye Naik |
 |---|---|---|---|
 | <img width="1272" height="1696" alt="WhatsApp Image 2026-05-13 at 22 33 33" src="https://github.com/user-attachments/assets/7020f011-6cab-476a-9c4e-360c6d51a901" />
- | beep | bop | boop |
+ | beep 
+ | <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/7e46786f-7163-4b6f-bb2a-ba303ed64177" />
+ | boop |
 
 ## Competition Overview
 
