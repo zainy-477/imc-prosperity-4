@@ -197,6 +197,13 @@ The **Black-Shoales method** is a formula used to estimate the current fair valu
   <img src="https://github.com/user-attachments/assets/4b3b6e1c-d31a-4fbf-a6b8-062ddcf84877" width="33%" />
 </p>
 
+Our main concern was the low expected value from the 60 CALL (3 week) option, around 2000 XIRECs (out of a 160000+ XIREC total mean), and its large negative tail. As a result, we made the decision to exclude it from our final submission. As seen in the statistics below, this would increase our win percentage by 5% and significantly reduce our loss in the worst-case scenarios, with only a small decrease in mean profit. The flip side to this was a large decrease in the median profit, due to the volatility of this option, but we were willing to accept that. This is because we assumed the Prosperity team would recompute the scenario if excessive profits were achieved, so results would be biased toward lower profits.
+
+| With 60 CHOOSER | Without 60 CHOOSER |
+|---|---|
+| <img width="911" height="448" alt="image" src="https://github.com/user-attachments/assets/66000f1a-baf4-4118-9b0a-0a6c571cde52" />
+ | <img width="932" height="444" alt="image" src="https://github.com/user-attachments/assets/4b4a7f54-711e-41c1-82b2-ccb30116fdac" /> |
+
 Talk about Black-Shoales and our simiulation (insert a picture of it too).
 
 
