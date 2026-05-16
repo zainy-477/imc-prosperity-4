@@ -234,7 +234,7 @@ Our first challenge was finding a prior off which to base our return predictions
 
   <tr>
     <td colspan="2" style="text-align: center;">
-      <h2>Market Movement Summary</h2>
+      <h2>Prosperity 3 News Trading Round</h2>
     </td>
   </tr>
   
@@ -247,7 +247,7 @@ Our first challenge was finding a prior off which to base our return predictions
         <thead>
           <tr>
             <th>Product</th>
-            <th>Actual Movement</th>
+            <th>Movement</th>
           </tr>
         </thead>
         <tbody>
