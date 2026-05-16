@@ -204,6 +204,10 @@ Our main concern was the low expected value from the 60 CALL (3 week) option, ar
 | <img width="911" height="448" alt="image" src="https://github.com/user-attachments/assets/66000f1a-baf4-4118-9b0a-0a6c571cde52" />
  | <img width="932" height="444" alt="image" src="https://github.com/user-attachments/assets/4b4a7f54-711e-41c1-82b2-ccb30116fdac" /> |
 
+| With 60 CHOOSER | Without 60 CHOOSER |
+|---|---|
+| ![](https://github.com/user-attachments/assets/66000f1a-baf4-4118-9b0a-0a6c571cde52) | ![](https://github.com/user-attachments/assets/4b4a7f54-711e-41c1-82b2-ccb30116fdac) |
+
 Talk about Black-Shoales and our simiulation (insert a picture of it too).
 
 
