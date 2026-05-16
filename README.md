@@ -211,7 +211,9 @@ Finally, we focussed on hedging. Initially, we tried to reason through the optio
 |---|---|
 | ![](https://github.com/user-attachments/assets/4b4a7f54-711e-41c1-82b2-ccb30116fdac) | ![](https://github.com/user-attachments/assets/9ede53cb-2f53-45d3-a617-025757354f37) |
 
-At a small cost to the mean and median profit, our hedging choices significantly reduced our worst case scenarios and improved our win percentage by a further 4%, which we belived to be essential in a game where the team was likely to be incentivised to punish high volatility. Higher win rates were possible, but we didn't believe the drop in expected value to be worth it. Unfortunately, even with hedging, there was a large portion of luck involved in this round - the most of any manual round, by a large margin. The team that obtained the highest profit in Round 4 Manual, *PigameforTrading*, went on to win the Manual Challenge.
+At a small cost to the mean and median profit, our hedging choices significantly reduced our worst case scenarios and improved our win percentage by a further 4%, which we belived to be essential in a game where the team was likely to be incentivised to punish high volatility. Higher win rates were possible, but we didn't believe the drop in expected value to be worth it. Unfortunately, even with hedging, there was a large portion of luck involved in this round - the most of any manual round, by a large margin. The team that obtained the highest profit in Round 4 Manual, *PigameforTrading*, went on to win the Manual Challenge. We particularly liked the following analogy, posted by someone on the discord:
+
+<img width="1090" height="143" alt="image" src="https://github.com/user-attachments/assets/f9acab12-e8bd-4ac3-bf3e-704812c902ef" />
 
 In the end, we obtained a profit of **38,814 XIRECs**, compared to the mean *2,310 XIRECs*, median *22,618 XIRECs*, and maximum *177,980 XIRECs*. Although this was a little disappointing, we were happy with our strategy and would not have changed it if given the chance to repeat the round with a different seed.
 
