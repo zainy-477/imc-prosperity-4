@@ -230,27 +230,33 @@ The final manual challenge was identical in format to last year - a news trading
 
 Our first challenge was finding a prior off which to base our return predictions. While the Frankfurt Hedgehogs listed the price movements for the commodities in Prosperity 3's news trading round, they did not attach the corresponding news article. After much digging, we stumbed across an article that provided this news article for us! For the benefit of future Prosperity participants, we attach the **Prosperity 3 News Trading** article and results below:
 
-<div style="display: flex; align-items: flex-start; gap: 24px;">
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/db05ba29-abe2-488e-8a23-e0826f15fee4" />
-
 <table>
-  <thead>
-    <tr>
-      <th>Product</th>
-      <th>Actual Movement</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Haystacks</td><td>-0.48%</td></tr>
-    <tr><td>Ranch Sauce</td><td>-0.72%</td></tr>
-    <tr><td>Cacti Needle</td><td>-41.20%</td></tr>
-    <tr><td>Solar Panels</td><td>-8.90%</td></tr>
-    <tr><td>Red Flags</td><td>50.90%</td></tr>
-    <tr><td>VR Monocle</td><td>22.40%</td></tr>
-    <tr><td>Quantum Coffee</td><td>-66.79%</td></tr>
-    <tr><td>Moonshine</td><td>3.00%</td></tr>
-    <tr><td>Striped shirts</td><td>0.21%</td></tr>
-  </tbody>
+  <tr>
+    <td style="vertical-align: top; width: 50%;">
+      <img src="image.png" alt="image" width="500">
+    </td>
+    <td style="vertical-align: top; width: 50%;">
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Actual Movement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Haystacks</td><td>-0.48%</td></tr>
+          <tr><td>Ranch Sauce</td><td>-0.72%</td></tr>
+          <tr><td>Cacti Needle</td><td>-41.20%</td></tr>
+          <tr><td>Solar Panels</td><td>-8.90%</td></tr>
+          <tr><td>Red Flags</td><td>50.90%</td></tr>
+          <tr><td>VR Monocle</td><td>22.40%</td></tr>
+          <tr><td>Quantum Coffee</td><td>-66.79%</td></tr>
+          <tr><td>Moonshine</td><td>3.00%</td></tr>
+          <tr><td>Striped shirts</td><td>0.21%</td></tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
 </table>
 
 </div>
