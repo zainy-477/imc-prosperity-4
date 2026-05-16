@@ -259,6 +259,42 @@ Our first challenge was finding a prior off which to base our return predictions
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <h2>Prosperity 3 News Trading Round</h2>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="vertical-align: top; width: 70%;">
+      <img src="[./image.png](https://github.com/user-attachments/assets/98871d10-df07-4849-8ee5-c894269ed14a)" alt="image" width="900">
+    </td>
+
+    <td style="vertical-align: top; width: 30%;">
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Actual Movement</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Haystacks</td><td>-0.48%</td></tr>
+          <tr><td>Ranch Sauce</td><td>-0.72%</td></tr>
+          <tr><td>Cacti Needle</td><td>-41.20%</td></tr>
+          <tr><td>Solar Panels</td><td>-8.90%</td></tr>
+          <tr><td>Red Flags</td><td>50.90%</td></tr>
+          <tr><td>VR Monocle</td><td>22.40%</td></tr>
+          <tr><td>Quantum Coffee</td><td>-66.79%</td></tr>
+          <tr><td>Moonshine</td><td>3.00%</td></tr>
+          <tr><td>Striped shirts</td><td>0.21%</td></tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+</table>
+
 </div>
 
 
