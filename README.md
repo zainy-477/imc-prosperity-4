@@ -170,11 +170,6 @@ Describe:
 - how decisions were made
 
 ## Manual Challenge
-Describe:
-- our thought process
-- the tools we used
-- how decisions were made
-
 This challenge introduced us to the **AETHER CRYSTAL** product as well as a variety of options, as seen in the image below. The important things to note about options and these ones specifically are:
 * An option is a contract that gives the buyer the right (but not obligation) to buy or sell an underlying asset at a specific price (called the strike price of the option) within a certain timeframe.
 * A **CALL Option** gives the right to buy while a **PUT Option** gives the right to sell.
