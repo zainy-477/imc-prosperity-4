@@ -295,7 +295,5 @@ Our first challenge was finding a prior off which to base our return predictions
   </tr>
 </table>
 
-</div>
-
 
 # Takeaways
