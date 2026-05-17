@@ -272,7 +272,7 @@ The article and results for this round are given below, as well as our reasoning
 
 * **Pyroflex Cells:** This was very similar to the tax rise in **Solar Panels** last year, so we predicted a similar -9%. The actual movement of -19.53% is suggestive of a more severe impact, perhaps because Solar Panels experienced a *tax raise* last year whereas Pyroflex Cells experienced a *tax relief cut* this year. One other issue with comparison was that the increase in tax was specified last year to be +8.4%, whereas this year we were only told that the levy was doubled.
   
-* **Thermalite Core:**
+* **Thermalite Core:** This was identical to the **VR Monocle** product from last year, except VR Monocle had just come off the back of a well-performing quarter whereas Thermalite Core was predicted to have a well-performing quarter. While VR Monocle had slightly better metrics, the combination of future growth and a useful household product (as opposed to VR Monocle, which was suggested to be damaging to the economy) led us to predict a larger growth of +35% for Thermalite Core, compared to the +22.40% experienced by VR Monocle last year. This ended up being a small blunder, as Thermalite Core experienced an almost identical growth of +22.16%.
   
 * **Lava Cake:** This was similar to last year's **Quantum Coffee**, and would obviously experience a large crash in the market; the question was how much would its value drop. On one hand, Quantum Coffee was a hype product that people had jumped on, and negative long-term effects had just been revealed. On the other hand, Lava Cake was an established and popular product with no confirmed long-term consequences. However, traces of lava were confirmed to be found within the cakes (with associated consequences for volcanic material exposure), supply in stores was to be halted, and there were lawsuits being filed against the product. We reached the conclusion that both products would experience similar drops, though Lava Cake's drop might be slighly more severe due to a complete halt in sales and legal action. As a result, compared to Quantum Coffee's drop of -66.79% last year, we predicted a return of -68% for Lava Cakes. The actual movement was -63.35%, so we were happy with our prediction.
   
@@ -311,7 +311,7 @@ The article and results for this round are given below, as well as our reasoning
           <tr><td>Lava Cake</td><td>-68%</td><td>-63.35%</td><td>+99,802</td><td>+100,320</td></tr>
           <tr><td>Magma Ink</td><td>0%</td><td>+2.23%</td><td>0</td><td>+123</td></tr>
           <tr><td>Scoria Paste</td><td>0%</td><td>0%</td><td>0</td><td>0</td></tr>
-          <tr><td>Ashes of the Phoenix</td><td>-1%</td><td>-3.5%</td><td>+250</td><td>+300</td></tr>
+          <tr><td>Ashes of the Phoenix</td><td>-1%</td><td>-3.50%</td><td>+250</td><td>+300</td></tr>
           <tr><td>Volcanic Incense</td><td>+7%</td><td>-14.57%</td><td>-7,428</td><td>+5,299</td></tr>
           <tr><td>Sulfur Reactor</td><td>+11%</td><td>+17.42%</td><td>+6,854</td><td>+7,578</td></tr>
         </tbody>
