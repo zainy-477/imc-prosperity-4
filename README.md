@@ -293,8 +293,8 @@ The article and results for this round are given below, as well as our reasoning
         <thead>
           <tr>
             <th>Product</th>
-            <th>Expected Movement</th>
-            <th>Actual Movement</th>
+            <th>Prediction</th>
+            <th>Movement</th>
             <th>Profit</th>
             <th>Optimal Profit</th>
           </tr>
