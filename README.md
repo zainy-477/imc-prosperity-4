@@ -267,8 +267,8 @@ Our first challenge was finding a prior off which to base our return predictions
 </table>
 
 The article and results for this round are given below, as well as our reasoning. We drew many parallels with products from last year in order to get our estimates, and also assumed a similar overall structure where some products would exhibit very little to no movement.
-* **Obsidian Cutlery:** 
-* **Pyroflex Cells:**
+* **Obsidian Cutlery:** We drew similarities between this commodity and **Red Flags** from last year, as both relate to supply shocks. However, the shock last year was a lot more devastating as there was an instant and large loss in supply and a possible delay in reprinting (which was already months away). Our initial prediction was +13%, but the fact that this was a large factory, the warnings of industry experts, and the demonstrated slicing abilities of the cutlery convinced us to raise our prediction to +21%. Unfortunately, this was the wrong decision as the final movement was +9.92%, resulting in a slight loss for us. In hindsight, we should have noted that there was no realised supply shock yet but only the possibility of one, and accordingly predicted a lower increase.
+* **Pyroflex Cells:** This was very similar to the tax rise in **Solar Panels** last year, so we predicted a similar -9%. The actual movement of -19.53% is suggestive of a more severe impact, perhaps because the cut in tax relief was larger (even though the predicted increase in ownership cost was only 2x rather the 3x for Solar Panels)
 * **Thermalite Core:**
 * **Lava Cake:**
 * **Magma Ink:**
@@ -324,6 +324,6 @@ The article and results for this round are given below, as well as our reasoning
   </tr>
 </table>
 
-
+Our final profit of **114,325 XIRECs** was far above the mean *35,665 XIRECs* and median *60,457 XIRECs*, though admittedly about 100,000 XIRECs came from Lava Cakes alone, which teams with access to last years' news article and commodity movements should have been able to obtain. The maximum attainable profit was *137,886 XIRECs*, although the most that any one team achieved was *131,124 XIRECs*. The majority of our deficit came from Volcanic Incense, the only product for which we predicted the direction of movement incorrectly, where we left 12,000 XIRECs on the board. All in all though, a pretty good result for the round! 
 
 # Takeaways
