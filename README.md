@@ -305,7 +305,7 @@ The article and results for this round are given below, as well as our reasoning
           <tr><td>Sulfur Reactor</td><td>11%</td><td>+17.42%</td><td>+6,854</td><td>+7,578</td></tr>
         </tbody>
         <tfoot>
-          <tr style="font-weight: bold;">
+          <tr>
             <td>Σ</td>
             <td></td>
             <td></td>
@@ -317,9 +317,7 @@ The article and results for this round are given below, as well as our reasoning
     </td>
   </tr>
 </table>
-
----
-
+--
 <table>
   <tr>
     <td colspan="2" style="text-align: center;">
@@ -336,36 +334,37 @@ The article and results for this round are given below, as well as our reasoning
         <thead>
           <tr>
             <th>Product</th>
-            <th style="text-align: center;">Expected Movement</th>
-            <th style="text-align: center;">Actual Movement</th>
-            <th style="text-align: center;">Profit</th>
-            <th style="text-align: center;">Optimal Profit</th>
+            <th>Expected Movement</th>
+            <th>Actual Movement</th>
+            <th>Profit</th>
+            <th>Optimal Profit</th>
           </tr>
         </thead>
         <tbody>
-          <tr><td>Obsidian Cutlery</td><td style="text-align: center;">21%</td><td style="text-align: center;">9.92%</td><td style="text-align: center;">-1,193</td><td style="text-align: center;">+2,460</td></tr>
-          <tr><td>Pyroflex Cells</td><td style="text-align: center;">-9%</td><td style="text-align: center;">-19.53%</td><td style="text-align: center;">+7,267</td><td style="text-align: center;">+9,530</td></tr>
-          <tr><td>Thermalite Core</td><td style="text-align: center;">35%</td><td style="text-align: center;">+22.16%</td><td style="text-align: center;">+8,772</td><td style="text-align: center;">+12,276</td></tr>
-          <tr><td>Lava Cake</td><td style="text-align: center;">-68%</td><td style="text-align: center;">-63.35%</td><td style="text-align: center;">+99,802</td><td style="text-align: center;">+100,320</td></tr>
-          <tr><td>Magma Ink</td><td style="text-align: center;">0%</td><td style="text-align: center;">2.23%</td><td style="text-align: center;">0</td><td style="text-align: center;">+123</td></tr>
-          <tr><td>Scoria Paste</td><td style="text-align: center;">0%</td><td style="text-align: center;">0%</td><td style="text-align: center;">0</td><td style="text-align: center;">0</td></tr>
-          <tr><td>Ashes of the Phoenix</td><td style="text-align: center;">-1%</td><td style="text-align: center;">-3.5%</td><td style="text-align: center;">+250</td><td style="text-align: center;">+300</td></tr>
-          <tr><td>Volcanic Incense</td><td style="text-align: center;">7%</td><td style="text-align: center;">-14.57%</td><td style="text-align: center;">-7,428</td><td style="text-align: center;">+5,299</td></tr>
-          <tr><td>Sulfur Reactor</td><td style="text-align: center;">11%</td><td style="text-align: center;">+17.42%</td><td style="text-align: center;">+6,854</td><td style="text-align: center;">+7,578</td></tr>
+          <tr><td>Obsidian Cutlery</td><td>21%</td><td>9.92%</td><td>-1,193</td><td>+2,460</td></tr>
+          <tr><td>Pyroflex Cells</td><td>-9%</td><td>-19.53%</td><td>+7,267</td><td>+9,530</td></tr>
+          <tr><td>Thermalite Core</td><td>35%</td><td>+22.16%</td><td>+8,772</td><td>+12,276</td></tr>
+          <tr><td>Lava Cake</td><td>-68%</td><td>-63.35%</td><td>+99,802</td><td>+100,320</td></tr>
+          <tr><td>Magma Ink</td><td>0%</td><td>2.23%</td><td>0</td><td>+123</td></tr>
+          <tr><td>Scoria Paste</td><td>0%</td><td>0%</td><td>0</td><td>0</td></tr>
+          <tr><td>Ashes of the Phoenix</td><td>-1%</td><td>-3.5%</td><td>+250</td><td>+300</td></tr>
+          <tr><td>Volcanic Incense</td><td>7%</td><td>-14.57%</td><td>-7,428</td><td>+5,299</td></tr>
+          <tr><td>Sulfur Reactor</td><td>11%</td><td>+17.42%</td><td>+6,854</td><td>+7,578</td></tr>
         </tbody>
         <tfoot>
-          <tr style="font-weight: bold;">
-            <td>Σ</td>
+          <tr>
+            <td><strong>Σ</strong></td>
             <td></td>
             <td></td>
-            <td style="text-align: center;">+114,325</td>
-            <td style="text-align: center;">+137,886</td>
+            <td><strong>+114,325</strong></td>
+            <td><strong>+137,886</strong></td>
           </tr>
         </tfoot>
       </table>
     </td>
   </tr>
 </table>
+
 
 
 # Takeaways
