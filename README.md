@@ -283,12 +283,6 @@ The article and results for this round are given below, as well as our reasoning
       <img src="https://github.com/user-attachments/assets/6ca58268-734c-4fc6-9f53-5d1481044afb" alt="image" width="700">
     </td>
     <td style="vertical-align: top; width: 50%;">
-      <style>
-        table td:not(:first-child),
-        table th:not(:first-child) {
-          text-align: center;
-        }
-      </style>
       <table>
         <thead>
           <tr>
@@ -323,5 +317,69 @@ The article and results for this round are given below, as well as our reasoning
     </td>
   </tr>
 </table>
+
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table td:not(:first-child),
+    table th:not(:first-child) {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <h2>Prosperity 3 News Trading Round</h2>
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="vertical-align: top; width: 50%;">
+      <img src="https://github.com/user-attachments/assets/6ca58268-734c-4fc6-9f53-5d1481044afb" alt="image" width="700">
+    </td>
+    <td style="vertical-align: top; width: 50%;">
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Expected Movement</th>
+            <th>Actual Movement</th>
+            <th>Profit</th>
+            <th>Optimal Profit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Obsidian Cutlery</td><td>21%</td><td>9.92%</td><td>-1,193</td><td>+2,460</td></tr>
+          <tr><td>Pyroflex Cells</td><td>-9%</td><td>-19.53%</td><td>+7,267</td><td>+9,530</td></tr>
+          <tr><td>Thermalite Core</td><td>35%</td><td>+22.16%</td><td>+8,772</td><td>+12,276</td></tr>
+          <tr><td>Lava Cake</td><td>-68%</td><td>-63.35%</td><td>+99,802</td><td>+100,320</td></tr>
+          <tr><td>Magma Ink</td><td>0%</td><td>2.23%</td><td>0</td><td>+123</td></tr>
+          <tr><td>Scoria Paste</td><td>0%</td><td>0%</td><td>0</td><td>0</td></tr>
+          <tr><td>Ashes of the Phoenix</td><td>-1%</td><td>-3.5%</td><td>+250</td><td>+300</td></tr>
+          <tr><td>Volcanic Incense</td><td>7%</td><td>-14.57%</td><td>-7,428</td><td>+5,299</td></tr>
+          <tr><td>Sulfur Reactor</td><td>11%</td><td>+17.42%</td><td>+6,854</td><td>+7,578</td></tr>
+        </tbody>
+        <tfoot>
+          <tr style="font-weight: bold;">
+            <td>Σ</td>
+            <td></td>
+            <td></td>
+            <td>+114,325</td>
+            <td>+137,886</td>
+          </tr>
+        </tfoot>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
 
 # Takeaways
