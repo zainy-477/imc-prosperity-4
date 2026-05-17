@@ -280,7 +280,8 @@ The article and results for **this round** are given below, as well as our reaso
   
 * **Scoria Paste:** This was the easiest product for us to agree on, for three reasons. First, the supposed expert encouraging the purchase of Scoria Paste was **self-proclaimed**. Second, the broadast took place on a YouTube equivalent platform - not very reputable for investiments. Finally and most importantly, Scoria Paste is a **household object** and in common use. It is incredibly unlikely that a nobody on YouTube is going to influence the valuation of such a staple product, which is bound to have widespread supply and consistent usage. Therefore, we correctly predicted that this commodity would not experience any movement.
   
-* **Ashes of the Phoenix:**
+* **Ashes of the Phoenix:** We weren't too sure what to think of this, and had a mind that the valuation could go either way. The reason for a drop is obvious - bad publicity for the company. However, the fact that a representative of the company spoke up and made a joke made us think that the popularity of the commodity might go up, especially as the video wasn't verified but tied closely to the makeup brand's name. We might've been deeping it too much though, and in the end hedged on a small decrease with a predicted -1%. The actual movement was -3.50%, which makes sense because it was bad publicity but quickly remedied by the company.
+  
 * **Volcanic Incense:**
 * **Sulfur Reactor:** 
 
