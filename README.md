@@ -283,6 +283,12 @@ The article and results for this round are given below, as well as our reasoning
       <img src="https://github.com/user-attachments/assets/6ca58268-734c-4fc6-9f53-5d1481044afb" alt="image" width="700">
     </td>
     <td style="vertical-align: top; width: 50%;">
+      <style>
+        table td:not(:first-child),
+        table th:not(:first-child) {
+          text-align: center;
+        }
+      </style>
       <table>
         <thead>
           <tr>
@@ -305,7 +311,7 @@ The article and results for this round are given below, as well as our reasoning
           <tr><td>Sulfur Reactor</td><td>11%</td><td>+17.42%</td><td>+6,854</td><td>+7,578</td></tr>
         </tbody>
         <tfoot>
-          <tr>
+          <tr style="font-weight: bold;">
             <td>Σ</td>
             <td></td>
             <td></td>
