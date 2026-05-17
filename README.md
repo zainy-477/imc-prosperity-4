@@ -266,7 +266,7 @@ Our first challenge was finding a prior off which to base our return predictions
   </tr>
 </table>
 
-The article and results for this round are given below, as well as our reasoning. We drew many parallels with products from last year in order to get our estimates, and also assumed a similar overall structure where some products would exhibit very little to no movement.
+The article and results for **this round** are given below, as well as our reasoning. We drew many parallels with products from last year in order to get our estimates, and also assumed a similar overall structure where some products would exhibit very little to no movement.
 
 * **Obsidian Cutlery:** We drew similarities between this commodity and **Red Flags** from last year, as both relate to supply shocks. However, the shock last year was a lot more devastating as there was an instant and large loss in supply and a possible delay in reprinting (which was already months away). Our initial prediction was +13%, but the fact that this was a large factory, the warnings of industry experts, and the demonstrated slicing abilities of the cutlery convinced us to raise our prediction to +21%. Unfortunately, this was the wrong decision as the final movement was +9.92%, resulting in a slight loss for us. In hindsight, we should have noted that there was no realised supply shock yet but only the possibility of one, and accordingly predicted a lower increase.
 
@@ -276,8 +276,10 @@ The article and results for this round are given below, as well as our reasoning
   
 * **Lava Cake:** This was similar to last year's **Quantum Coffee**, and would obviously experience a large crash in the market; the question was how much would its value drop. On one hand, Quantum Coffee was a hype product that people had jumped on, and negative long-term effects had just been revealed. On the other hand, Lava Cake was an established and popular product with no confirmed long-term consequences. However, traces of lava were confirmed to be found within the cakes (with associated consequences for volcanic material exposure), supply in stores was to be halted, and there were lawsuits being filed against the product. We reached the conclusion that both products would experience similar drops, though Lava Cake's drop might be slighly more severe due to a complete halt in sales and legal action. As a result, compared to Quantum Coffee's drop of -66.79% last year, we predicted a return of -68% for Lava Cakes. The actual movement was -63.35%, so we were happy with our prediction.
   
-* **Magma Ink:**
-* **Scoria Paste:**
+* **Magma Ink:** We believed this to be a bit of a red herring for newcomers and those teams that didn't read carefully enough. Although mergers are associated with rises in valuation, this merger happened **a month ago** and so there were to be no associated gains from that. On the other hand, it could be argued that the value would fall after the **hot drop** of a combined product, as the hype around release would call valuation to rise until the release date. However, given that the release of the product lived up to all expectations, and even slightly exceeded them, we didn't believe this to be the case. As a result, we thought there may be an insignificant rise or decline in the value of Magma Ink, and predicted no change. The actual movement ended up being +2.23%, likely because the product release was successful, but we were happy with our decision to not invest. The movement was bound to be miniscule and grant marginal returns, so there was no point in taking a risk.
+  
+* **Scoria Paste:** This was the easiest product for us to agree on, for three reasons. First, the supposed expert encouraging the purchase of Scoria Paste was **self-proclaimed**. Second, the broadast took place on a YouTube equivalent platform - not very reputable for investiments. Finally and most importantly, Scoria Paste is a **household object** and in common use. It is incredibly unlikely that a nobody on YouTube is going to influence the valuation of such a staple product, which is bound to have widespread supply and consistent usage. Therefore, we correctly predicted that this commodity would not experience any movement.
+  
 * **Ashes of the Phoenix:**
 * **Volcanic Incense:**
 * **Sulfur Reactor:** 
