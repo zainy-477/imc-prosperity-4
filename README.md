@@ -294,9 +294,9 @@ The article and results for this round are given below, as well as our reasoning
           <tr>
             <th>Product</th>
             <th>Prediction</th>
-            <th>Movement</th>
-            <th>Profit</th>
-            <th>Optimal Profit</th>
+            <th>Actual Movement</th>
+            <th>Our Profit</th>
+            <th>Optimal</th>
           </tr>
         </thead>
         <tbody>
