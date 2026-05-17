@@ -226,7 +226,7 @@ Describe:
 - how decisions were made
 
 ## Manual Challenge - News Trading
-The final manual challenge was identical in format to last year - a news trading round! We were super excited about it - although it involved less technical rigour than other rounds, it was very engaging and inspired many thought-provoking debates among us. There were 9 commodities presented to us, along with the **ASHFLOW ALPHA News Article** describing recent news relating to these commodities. We had a *budget of 1,000,000 XIRECs* with which to buy or sell these commodities, and we would reap the rewards or losses of a **one-day return**. In addition, there was a trading fee of $\text{proportion}^2 \times 1{,}000{,}000$ depending on the proportion of the budget that we spent on each commodity. Given knowledge of the returns, it was possible to write a script that found the optimal allocation among commodities (taking the trading fee into account), so we focussed on estimating the one-day movements of these commodities.
+The final manual challenge was identical in format to last year - a news trading round! We were super excited about it - although it involved less technical rigour than other rounds, it was very engaging and inspired many thought-provoking debates among us. There were 9 commodities presented to us, along with the **ASHFLOW ALPHA News Article** describing recent news relating to these commodities. We had a *budget of 1,000,000 XIRECs* with which to buy or sell these commodities, and we would reap the rewards or losses of a **one-day return**. There was a small pre-defined range for the return of each commodity, which would be resolved to a final value by the community's decisions for trade of these commodities. In addition, there was a trading fee of $\text{proportion}^2 \times 1{,}000{,}000$ depending on the proportion of the budget that we spent on each commodity. Given knowledge of the returns, it was possible to write a script that found the optimal allocation among commodities (taking the trading fee into account), so we focussed on estimating the one-day movements of these commodities.
 
 Our first challenge was finding a prior off which to base our return predictions. While the Frankfurt Hedgehogs listed the price movements for the commodities in Prosperity 3's news trading round, they did not attach the corresponding news article. After much digging, we stumbed across an article that provided this news article for us! For the benefit of future Prosperity participants, we attach the **Prosperity 3 News Trading** article and one-day commodity movements below:
 
@@ -266,5 +266,56 @@ Our first challenge was finding a prior off which to base our return predictions
   </tr>
 </table>
 
+The article and results for this round are given below, as well as our reasoning. We drew many parallels with products from last year in order to get our estimates, and also assumed a similar overall structure where some products would exhibit very little to no movement.
+
+
+
+<table>
+
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <h2>Prosperity 3 News Trading Round</h2>
+    </td>
+  </tr>
+  
+  <tr>
+    <td style="vertical-align: top; width: 50%;">
+      <img src="https://github.com/user-attachments/assets/6ca58268-734c-4fc6-9f53-5d1481044afb" alt="image" width="700">
+    </td>
+    <td style="vertical-align: top; width: 50%;">
+      <table>
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Expected Movement</th>
+            <th>Actual Movement</th>
+            <th>Profit</th>
+            <th>Optimal Profit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Obsidian Cutlery</td><td>21%</td><td>9.92%</td><td>-1,193</td><td>+2,460</td></tr>
+          <tr><td>Pyroflex Cells</td><td>-9%</td><td>-19.53%</td><td>+7,267</td><td>+9,530</td></tr>
+          <tr><td>Thermalite Core</td><td>35%</td><td>+22.16%</td><td>+8,772</td><td>+12,276</td></tr>
+          <tr><td>Lava Cake</td><td>-68%</td><td>-63.35%</td><td>+99,802</td><td>+100,320</td></tr>
+          <tr><td>Magma Ink</td><td>0%</td><td>2.23%</td><td>0</td><td>+123</td></tr>
+          <tr><td>Scoria Paste</td><td>0%</td><td>0%</td><td>0</td><td>0</td></tr>
+          <tr><td>Ashes of the Phoenix</td><td>-1%</td><td>-3.5%</td><td>+250</td><td>+300</td></tr>
+          <tr><td>Volcanic Incense</td><td>7%</td><td>-14.57%</td><td>-7,428</td><td>+5,299</td></tr>
+          <tr><td>Sulfur Reactor</td><td>11%</td><td>+17.42%</td><td>+6,854</td><td>+7,578</td></tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Σ</td>
+            <td></td>
+            <td></td>
+            <td>+114,325</td>
+            <td>+137,886</td>
+          </tr>
+        </tfoot>
+      </table>
+    </td>
+  </tr>
+</table>
 
 # Takeaways
