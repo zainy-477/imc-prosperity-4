@@ -75,6 +75,7 @@ IMC Prosperity 4 was an online quantitative trading competition for university s
 * [Round 3](#round-3)
 * [Round 4](#round-4)
 * [Round 5](#round-5)
+* [Takeaways](#takeaways)
 
 
 
