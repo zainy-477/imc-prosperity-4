@@ -9,11 +9,7 @@ This writeup shares our strategies for the algorithmic and manual challenges of 
 | <img width="1272" height="1696" alt="WhatsApp Image 2026-05-13 at 22 33 33" src="https://github.com/user-attachments/assets/7020f011-6cab-476a-9c4e-360c6d51a901" /> | <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/7e46786f-7163-4b6f-bb2a-ba303ed64177" /> |
 
 ## Competition Overview
-
-Briefly explain the structure of Prosperity 4.
-
-- 5 rounds
-- Algorithmic + manual challenges
+IMC Prosperity 4 was an online quantitative trading competition for university students, hosted in April 2026. It consisted of two official phases and five official rounds, where Phase 1 (Rounds 1 & 2, each 72 hours) required teams to obtain **score of 200,000 XIRECs to qualify** for Phase 2 (Rounds 3, 4 & 5, each 48 hours). Each round was split into an algorithmic (Python) challenge and a manual challenge. 
 
 <table>
   <tr>
@@ -74,6 +70,8 @@ Briefly explain the structure of Prosperity 4.
 
 ## Structural Overview
 Contents
+*[Round 1](#round-1)
+*[Round 2](#round-2)
 
 
 # Round 1
