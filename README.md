@@ -67,7 +67,6 @@ IMC Prosperity 4 was an online quantitative trading competition for university s
 </table>
 
 
-
 ## Structural Overview
 
 * [Round 1](#round-1)
@@ -78,14 +77,16 @@ IMC Prosperity 4 was an online quantitative trading competition for university s
 * [Takeaways](#takeaways)
 
 
-
 # Round 1
 
-## Algorithmic Challenge
-Describe:
-- how ideas were generated
-- how signals were tested
-- how decisions were made
+## Algorithmic Challenge - Mean Reversion and Trends
+The first algorithmic challenge introduced two products - **ASH_COATED_OSMIUM**, which was mean reverting, and **INTARIAN_PEPPER_ROOT**, which had a clear upward trend. For these products, and indeed many products to follow, we took inspiration from the Frankfurt Hedgehogs' writeup for Prosperity 3 and used the wall-mid as an estimate of fair price. This is rooted in the idea that there are major liquidity clusters (i.e. large volumes of orders) on either edge of the orderbook, known as "buy walls" and "sell walls", which are placed at equal distances from the fair price. Thus, the wall-mid takes the middle of the buy and sell walls as the fair price, rather than the middle of the best bid and ask. This estimate of fair price laid the foundation of our analysis and also allowed us to see when a bid or ask may prove profitable instantly.
+
+For **ASH_COATED_OSMIUM**, we found that the fair price had a strong negative autocorrelation as well as a mean of ~10,000 XIRECs across all three days of historical data. Further analysis showed that it followed the **Ornstein-Uhlenbeck process**, exhibiting mean-reverting behaviour with stochastic noise, so we derived the relevant parameters to model this product. We also noticed that when there was a *one-sided orderbook* (one side wasn't quoted), **extremely wide quotes would occasionally be filled, up to 100 XIRECs from the fair price**, providing additional alpha over the vast majority of other teams. As such, we implemented an algorithm to take advantage of the one-sided orderbook if possible, **short / long the product based on a z-score threshold**, and **market make** otherwise.
+
+Meanwhile, the steady increase in **INTARIAN_PEPPER_ROOT** provided a clear strategy to buy and hold. The effectiveness of market making was reduced here as any sale would reduce the profit from the steady increase, but we still found it advantageous and kept it in our algorithm. Many teams, ourselves included, were cautious of a deviation from this trend, so much of our logic went toward building in failsafes to detect these deviations and act accordingly with our inventory. However, this never materialised.
+
+Our profit for this algorithmic challenge ended up at **105,962 XIRECs**, which put us into the top 100 teams. However, as we found out in Round 2, we left some profit on the table.
 
 ## Manual Challenge - Static Orderbook
 The first manual challenge of the competition was a trivial optimisation. We were given static orderbooks for two products - **DRYLAND FLAK** and **EMBER MUSHROOM** - and had to submit our own buy or sell order for each, at a chosen price and quantity. The exchange would then select a single clearing price that maximised the total traded volume from the orderbook (including the orders that we submitted) and broke ties by choosing the higher price. Our orders would be executed at this clearing price. Finally, we would be able to sell any inventory that we had acquired at fixed prices of 30 XIRECs for **DRYLAND FLAK** and 20 XIRECs for **EMBER MUSHROOM**, with a 0.10 XIREC trading fee per unit subtracted from the latter. 
@@ -94,7 +95,8 @@ We created Python code to numerically optimise this problem, and submitted the f
 * Buy **DRYLAND FLAK** at a price of 30 XIRECs and volume of 9999 units.
 * Buy **EMBER MUSHROOM** at a price of 17 XIRECs and volume of 19999 units.
 
-This was one of the optimal solutions and as a result we came joint first in Round 1 of Manual. While this posed a problem that could easily be solved by brute force programming, it is interesting to think about why we obtain the results we do. For example, take a look at the volume of units we chose for our orders - if we were to increase these by 1, the clearing price would have increased by 1 XIREC and our profit would have shrunk by a large margin.
+This was one of the optimal solutions and as a result we came joint first in Round 1 of Manual, with a profit of **87,995 XIRECs**. While this posed a problem that could easily be solved by brute force programming, it is interesting to think about why we obtain the results we do. For example, take a look at the volume of units we chose for our orders - if we were to increase these by 1, the clearing price would have increased by 1 XIREC and our profit would have shrunk by a large margin.
+
 
 # Round 2
 
@@ -157,7 +159,6 @@ Describe:
 This was very similar to last years' Round 3 manual challenge, in Prosperity 3. There were a number of counterparties willing to sell the **ORNAMENTAL BIO-POD** product, each with a reserve price above which they would accept a bid. *Their distribution of asks was uniformly distributed at increments of 5 between 670 and 920 XIRECs.* We would later be able to sell all inventory at 920 XIRECs. 
 
 We were allowed to submit two bids. The first bid had no strings attached and was thus a pure optimisation problem. However, if our second bid was lower than or equal to the mean of second bids of all players, our PnL would be penalised by a cubic penalty $\left(\frac{920-\text{avg-b2}}{920-b2}\right)^3$. As the first bid was dependent on the second bid, it could only be optimised after we chose our second bid.
-
 
 The Nash equilibrium occured for a first bid of 751 XIRECs and a second bid of 836 XIRECs. Based on last years' results, where the average of 287 had only been slighly above the optimum of 284, we naively chose to submit a second bid of 846 XIRECs and corresponding optimal first bid of 756 XIRECs. The average second bid ended up being **859 XIRECs** and so we were heavily penalised, resulting in a PnL of **70,864 XIRECs** as opposed to the optimal *~80,000 XIRECs* - luckily, not a significant difference.
 
@@ -339,3 +340,8 @@ The article and results for **this round** are given below, as well as our reaso
 Our final profit of **114,325 XIRECs** was far above the mean *35,665 XIRECs* and median *60,457 XIRECs*, though admittedly about 100,000 XIRECs came from Lava Cakes alone, which teams with access to last years' news article and commodity movements should have been able to obtain. The maximum attainable profit was *137,886 XIRECs*, although the most that any one team achieved was *131,124 XIRECs*. The majority of our deficit came from Volcanic Incense, the only product for which we predicted the direction of movement incorrectly, where we left 12,000 XIRECs on the board. All in all though, a pretty good result for the round! 
 
 # Takeaways
+
+Draft 
+- Read the Wiki
+- Make data-driven decisions. If something looks like it confirms your hypothesis, make sure you also have evidence to PROVE this. Else this is confirmation bias.
+- Prepare. Make sure you know your stuff and have the analytical architecture prepared.
