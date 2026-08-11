@@ -92,8 +92,8 @@ Our profit for this algorithmic challenge ended up at **105,962 XIRECs**, which 
 The first manual challenge of the competition was a trivial optimisation. We were given static orderbooks for two products - **DRYLAND FLAK** and **EMBER MUSHROOM** - and had to submit our own buy or sell order for each, at a chosen price and quantity. The exchange would then select a single clearing price that maximised the total traded volume from the orderbook (including the orders that we submitted) and broke ties by choosing the higher price. Our orders would be executed at this clearing price. Finally, we would be able to sell any inventory that we had acquired at fixed prices of 30 XIRECs for **DRYLAND FLAK** and 20 XIRECs for **EMBER MUSHROOM**, with a 0.10 XIREC trading fee per unit subtracted from the latter. 
 
 We created Python code to numerically optimise this problem, and submitted the following two orders:
-* Buy **DRYLAND FLAK** at a price of 30 XIRECs and volume of 9999 units.
-* Buy **EMBER MUSHROOM** at a price of 17 XIRECs and volume of 19999 units.
+* Buy **DRYLAND FLAK** at a price of 30 XIRECs and volume of 9,999 units.
+* Buy **EMBER MUSHROOM** at a price of 17 XIRECs and volume of 19,999 units.
 
 This was one of the optimal solutions and as a result we came joint first in Round 1 of Manual, with a profit of **87,995 XIRECs**. While this posed a problem that could easily be solved by brute force programming, it is interesting to think about why we obtain the results we do. For example, take a look at the volume of units we chose for our orders - if we were to increase these by 1, the clearing price would have increased by 1 XIREC and our profit would have shrunk by a large margin.
 
@@ -101,10 +101,11 @@ This was one of the optimal solutions and as a result we came joint first in Rou
 # Round 2
 
 ## Algorithmic Challenge
-Describe:
-- how ideas were generated
-- how signals were tested
-- how decisions were made
+This round's algorithmic challenge used the same products as Round 1 (**ASH_COATED_OSMIUM** and **INTARIAN_PEPPER_ROOT**) but with the added opportunity to bid for **extra market access**, which granted 20% more bot quotes in the orderbook. Each team had to submit a bid for this extra market access, and if their bid was greater than the median bid then it would be accepted. Mistakenly, we interpreted this as extra trades that we would receive, thus boosting our profit from the one-sided orderbook wide quotes and market making, and bid 1500 XIRECs. On a similar note, we realised that Pepper exhibited the same one-sided orderbook alpha as Osmium, except quotes could be filled at even greater deviations from fair price (up to ~110 XIRECs). 
+
+There were two unfavourable outcomes from this challenge. First, our successful bid not only cost us directly, but saturated the orderbook with further quotes without increasing the probability of a trade. This increased competition reduced the effectiveness of market making by generally constraining us to a narrower bid-ask spread, but also reduced the occurances of one-sided orderbooks and hampered that alpha. Second, Osmium deviated from our hardcoded mean of ~10,000 XIRECs, saturating our position and costing us for the remainder of the simulation. As a result, we finished the challenge with a meagre **77,677 XIRECs** where we should have improved on our Round 1 results (and indeed, many other teams did), causing a drop in position.
+
+One of our main takeaways from this challenge was to consider the applicability of general logic across products. For example, we found the one-sided orderbook alpha for Osmium in Round 1, but didn't think to apply it to Pepper. Another example comes from our painstaking effort to detect regime shifts in Pepper while hardcoding a mean for Osmium. Taking learnings or code from one product and applying it to the other, while perhaps not always possible, would have greatly benefitted us across Rounds 1 and 2. Furthermore, a more rigorous and mathematical approach to algorithm outcomes (i.e. through *Expected Value*) would have instantly revealed that the extra market access was a red herring. It is also a helpful starting point for any algorithm - while it does not capture expected volatility, it can reveal the mean profit and promising strategies.
 
 ## Manual Challenge - Game Theory
 This manual challenge introduced an element of game theory. The premise was simple. We were given a budget of 50,000 XIRECs which we were able to split across three pillars (Research, Scale, Speed), each of which output a  multiplier according to our investment. An integer percentage X had to be allocated to each pillar, which would produce the following multiplier: 
