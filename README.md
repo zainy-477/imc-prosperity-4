@@ -345,4 +345,6 @@ Our final profit of **114,325 XIRECs** was far above the mean *35,665 XIRECs* an
 Draft 
 - Read the Wiki
 - Make data-driven decisions. If something looks like it confirms your hypothesis, make sure you also have evidence to PROVE this. Else this is confirmation bias.
-- Prepare. Make sure you know your stuff and have the analytical architecture prepared.
+- Prepare. Make sure you know your stuff and have the analytical architecture prepared. Backtester super important.
+- Expected Value mindset
+- 
