@@ -1,4 +1,4 @@
-# Round 3, Hydrogel v2 - TESTING THE WATERS, HYDROGEL ONLY
+# Round 3, Final Algorithm
 
 ## IMPORTS ##  ## IMPORTS ##  ## IMPORTS ##  ## IMPORTS ##  ## IMPORTS ##
 from datamodel import OrderDepth, UserId, TradingState, Order
