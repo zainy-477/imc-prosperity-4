@@ -152,11 +152,8 @@ This resulted in an overall profit of **213,867 XIRECs**, compared to the optima
 
 # Round 3
 
-## Algorithmic Challenge
-Describe:
-- how ideas were generated
-- how signals were tested
-- how decisions were made
+## Algorithmic Challenge - Mean Reversion and Volatility Smile
+In this challenge, two underlying products were introduced - **HYDROGEL_PACK** and **VELVETFRUIT_EXTRACT** - as well as **several call options** at distinct strike prices (4000, 4500, 5000, 5100, 5200, 5300, 5400, 5500) for the latter, similar to *VOLCANIC_ROCK* from last year.
 
 ## Manual Challenge - Game Theory
 This was very similar to last years' Round 3 manual challenge, in Prosperity 3. There were a number of counterparties willing to sell the **ORNAMENTAL BIO-POD** product, each with a reserve price above which they would accept a bid. *Their distribution of asks was uniformly distributed at increments of 5 between 670 and 920 XIRECs.* We would later be able to sell all inventory at 920 XIRECs. 
@@ -170,11 +167,8 @@ In hindsight, we should have anticipated the aggressive behaviour of players fro
 
 # Round 4
 
-## Algorithmic Challenge
-Describe:
-- how ideas were generated
-- how signals were tested
-- how decisions were made
+## Algorithmic Challenge - Bot Behaviour
+This algorithmic challenge retained the same products as Round 3, but now **revealed the names of bots in all trades**. The idea of this development was that some bots may have **insider information** and thus *their trades could be predictive of future price movements in a product*, offering us the chance to make favourable trades at key points. While we found this to be the case (e.g. the price would jump a certain amount for a few ticks after a specific bot traded), the **benefit of insider information did not outweigh the cost of crossing the spread** to make the necessary trades. As a result, our script did not integrate bot behaviour but retained the same logic as before. There was a small dispute in our team, as we had developed two versions of the Round 3 script for this challenge - one to integrate market making and another to improve the robustness of EMA. With no time to create a joint version, we ended up going with the latter, resulting in a profit of **149,166 XIRECs**. Looking back, clear communication and team roles would have prevented the dispute from arising and likely resulted in a performance boost for our team, as market making cosistently provided additional profit in our backtesting.
 
 ## Manual Challenge - Options & Hedging
 This challenge introduced us to the **AETHER CRYSTAL** product as well as a variety of options, as seen in the image below. The important things to note about options and these ones specifically are:
