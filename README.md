@@ -232,10 +232,7 @@ In the end, we obtained a profit of **38,814 XIRECs**, compared to the mean *2,3
 # Round 5
 
 ## Algorithmic Challenge
-Describe:
-- how ideas were generated
-- how signals were tested
-- how decisions were made
+The final algorithmic challenge of the competition presented us with **10 categories of products, each with 5 products, for a total of 50 products**. Buoyed by the promise of much hidden alpha, we looked for it in every category and every product, leading us to an algorithm that performed exceptionally well on the backtester. The 48-hour time limit encouraged us to extensively use AI in both analysis and implementation. At every setback, Claude was there to reveal an alternative route. At every mismatch in evidence, confirmation bias told us that our analysis simply hadn't caught up to our qualitative observations.
 
 ## Manual Challenge - News Trading
 The final manual challenge was identical in format to last year - a news trading round! We were super excited about it - although it involved less technical rigour than other rounds, it was very engaging and inspired many thought-provoking debates among us. There were 9 commodities presented to us, along with the **ASHFLOW ALPHA News Article** describing recent news relating to these commodities. We had a *budget of 1,000,000 XIRECs* with which to buy or sell these commodities, and we would reap the rewards or losses of a **one-day return**. There was a small pre-defined range for the return of each commodity, which would be resolved to a final value by the community's decisions for trade of these commodities. In addition, there was a trading fee of $\text{proportion}^2 \times 1{,}000{,}000$ depending on the proportion of the budget that we spent on each commodity. Given knowledge of the returns, it was possible to write a script that found the optimal allocation among commodities (taking the trading fee into account), so we focussed on estimating the one-day movements of these commodities.
