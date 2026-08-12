@@ -238,7 +238,7 @@ While our approach here left much to be desired, there were four genuine observa
 1. The **MICROCHIPS** category featured a **lead-lag correlation** of ~0.05 between one of its products and the remaining four. Unfortunately, this was not large enough to offset the cost from crossing the spread, and thus not implemented.
 2. The **PEBBLES** category featured **price stability across the aggregate of all its products**, remaining at ~50,000 XIRECs. This materialised as one of the products being negatively correlated with the remaining four.
 3. The **SNACKPACKS** category featured a correlation pair and triplet.
-4. A variety of products exhibited discrete behaviour at seemingly random points, resulting in price jumps of 10 or even 100. The strong negative first-order autocorrelation during this discrete price steps suggested that the underlying price was being rounded. We did not implement the alpha from the discretised price, which ended up offering up to *~700,000 XIRECs* for other teams.
+4. A variety of products exhibited **discrete price behaviour** at seemingly random points, resulting in jumps of 10 or even 100 XIRECs. The **strong negative first-order autocorrelation** during this discrete price steps suggested that the underlying price was being rounded. We did not implement the alpha from the discretised price, which ended up offering up to *~700,000 XIRECs* for other teams.
 
 Our most important learning point from this challenge was, to sound cliche, **make data-driven decisions**. If a product or category doesn't have any reliable signal that can be exploited, it should be left alone. Our downfall came from the assumption that all 50 products must have a signal, when the truth is that many were just noise, reflecting the real world.
 
