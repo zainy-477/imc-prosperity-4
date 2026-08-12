@@ -1,4 +1,4 @@
-# Round 2, Algorithm v2 - FIXES ON ROUND 1
+# Round 2, Final Algorithm
 
 ## IMPORTS ##  ## IMPORTS ##  ## IMPORTS ##  ## IMPORTS ##  ## IMPORTS ##
 from datamodel import OrderDepth, UserId, TradingState, Order
