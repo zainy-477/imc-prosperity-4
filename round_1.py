@@ -1,4 +1,4 @@
-# Round 1, Algorithm v5 - FINAL VERSION FOR ROUND 1
+# Round 1, Final Algorithm
 
 ## IMPORTS ##  ## IMPORTS ##  ## IMPORTS ##  ## IMPORTS ##  ## IMPORTS ##
 from datamodel import OrderDepth, UserId, TradingState, Order
