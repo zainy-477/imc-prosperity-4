@@ -232,7 +232,15 @@ In the end, we obtained a profit of **38,814 XIRECs**, compared to the mean *2,3
 # Round 5
 
 ## Algorithmic Challenge
-The final algorithmic challenge of the competition presented us with **10 categories of products, each with 5 products, for a total of 50 products**. Buoyed by the promise of much hidden alpha, we looked for it in every category and every product, leading us to an algorithm that performed exceptionally well on the backtester. The 48-hour time limit encouraged us to extensively use AI in both analysis and implementation. At every setback, Claude was there to reveal an alternative route. At every mismatch in evidence, confirmation bias told us that our analysis simply hadn't caught up to our qualitative observations.
+The final algorithmic challenge of the competition presented us with **10 categories of products, each with 5 products, for a total of 50 products**. Buoyed by the promise of much hidden alpha, we looked for it in every category and every product, leading us to an algorithm that performed exceptionally well on the backtester. The 48-hour time limit encouraged us to extensively use AI in both analysis and implementation. At every setback, Claude was there to reveal an alternative route. At every mismatch in evidence, confirmation bias told us that our analysis simply hadn't caught up to our qualitative observations. We made a loss on this challenge, reporting a PnL of **-43,997 XIRECs**.
+
+While our approach here left much to be desired, there were four genuine observations that we made:
+1. The **MICROCHIPS** category featured a **lead-lag correlation** of ~0.05 between one of its products and the remaining four. Unfortunately, this was not large enough to offset the cost from crossing the spread, and thus not implemented.
+2. The **PEBBLES** category featured **price stability across the aggregate of all its products**, remaining at ~50,000 XIRECs. This materialised as one of the products being negatively correlated with the remaining four.
+3. The **SNACKPACKS** category featured a correlation pair and triplet.
+4. A variety of products exhibited discrete behaviour at seemingly random points, resulting in price jumps of 10 or even 100. The strong negative first-order autocorrelation during this discrete price steps suggested that the underlying price was being rounded. We did not implement the alpha from the discretised price, which ended up offering up to *~700,000 XIRECs* for other teams.
+
+Our most important learning point from this challenge was, to sound cliche, **make data-driven decisions**. If a product or category doesn't have any reliable signal that can be exploited, it should be left alone. Our downfall came from the assumption that all 50 products must have a signal, when the truth is that many were just noise, reflecting the real world.
 
 ## Manual Challenge - News Trading
 The final manual challenge was identical in format to last year - a news trading round! We were super excited about it - although it involved less technical rigour than other rounds, it was very engaging and inspired many thought-provoking debates among us. There were 9 commodities presented to us, along with the **ASHFLOW ALPHA News Article** describing recent news relating to these commodities. We had a *budget of 1,000,000 XIRECs* with which to buy or sell these commodities, and we would reap the rewards or losses of a **one-day return**. There was a small pre-defined range for the return of each commodity, which would be resolved to a final value by the community's decisions for trade of these commodities. In addition, there was a trading fee of $\text{proportion}^2 \times 1{,}000{,}000$ depending on the proportion of the budget that we spent on each commodity. Given knowledge of the returns, it was possible to write a script that found the optimal allocation among commodities (taking the trading fee into account), so we focussed on estimating the one-day movements of these commodities.
@@ -345,11 +353,12 @@ The article and results for **this round** are given below, as well as our reaso
 Our final profit of **114,325 XIRECs** was far above the mean *35,665 XIRECs* and median *60,457 XIRECs*, though admittedly about 100,000 XIRECs came from Lava Cakes alone, which teams with access to last years' news article and commodity movements should have been able to obtain. The maximum attainable profit was *137,886 XIRECs*, although the most that any one team achieved was *131,124 XIRECs*. The majority of our deficit came from Volcanic Incense, the only product for which we predicted the direction of movement incorrectly, where we left 12,000 XIRECs on the board. All in all though, a pretty good result for the round! 
 
 # Takeaways
+All in all, this was a really enjoyable first competition. Through all the hours we invested, we learnt a lot and have grown stronger as individuals and in a team setting. My personal favourite moments of the competition were deducing the Python logic necessary to implement our algorithmic findings and debating about the right choice for the manual challenges - especially the news trading in Round 5. If there's any advice that I can offer to future participants, it is as follows:
 
-Draft 
-- Read the Wiki
-- Make data-driven decisions. If something looks like it confirms your hypothesis, make sure you also have evidence to PROVE this. Else this is confirmation bias.
-- Prepare. Make sure you know your stuff and have the analytical architecture prepared. Backtester super important.
-- Expected Value mindset
-- use AI to help analysis, but don't use it to implement coding logic - look at us
-- prepare against overfit (Round 5)
+* Prepare for the competition, whether this is in the days or weeks beforehand. Make sure you have all the analytical tools and architecture ready for when the official rounds commence. In particular, a reliable backtester is super important, as it allows you to rapidly test ideas (where the trial simulation on the website takes a few minutes) and across a variety of probabilistic conditions (where the trial simulation replays a deterministic simulation) to prevent overfitting.
+* Read and reread the Prosperity Wiki. It contains all the information you need and will prevent you from being caught out.
+* Make data-driven decisions. If something looks like it confirms your hypothesis, make sure you also have the evidence to PROVE this, else you are submitting to confirmation bias.
+* Take an "Expected Value mindset" with your logic, to ensure you are making the right decisions. This can also help to configure your backtester for each challenge, which requires a deep knowledge of all underlying processes.
+* Take advantage of AI to help with analysis and write code, but make sure that you can verify and understand its output. It should be used as a tool, not a substitute for your own two eyes.
+
+If you've made it this far, thank you very much for reading our writeup, and I hope you've learnt something from our successes and failures. If you'd like to get in contact, please email me at zainhirji26@hotmail.com. See you in the next one!
