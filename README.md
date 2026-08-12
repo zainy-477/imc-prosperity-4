@@ -1,13 +1,16 @@
 
 # IMC Prosperity 4 - Rocky Mountain Goats
-This writeup shares our strategies for the algorithmic and manual challenges of IMC Prosperity 4 (2026), which brought us to a global rank of 154th out of 18000+ teams - with a total score of 485,221 XIRECs in Phase 1 and 531,123 XIRECs in Phase 2. This was the first attempt at a quantitative trading competition for all of us, and we formed a team through the Discord server created by IMC for this competition. 
+This writeup (authored by Zain Hirji) shares our strategies for the algorithmic and manual challenges of IMC Prosperity 4 (2026), which brought us to a global rank of 154th out of 18000+ teams - with a total score of 485,221 XIRECs in Phase 1 and 531,123 XIRECs in Phase 2. This was the first attempt at a quantitative trading competition for all of us, and we formed a team through the Discord server created by IMC for this competition. 
+
+The current repository also shares our code for the algorithmic challenge in each round. The scripts for Rounds 1 - 3 are largely human-written and easily readable for those who want to understand how we implemented our logic. However, we significantly leveraged AI tools to write the scripts for Rounds 4 and 5, resulting in hundreds or thousands of lines of illegible logic. Ironically, these AI-written scripts ended up underperforming compared to those that we wrote manually.
 
 > Team Members: Zain Hirji, Alex Zhang, Saksham Arora, Annanye Naik
 
 | Zain Hirji | Saksham Arora |
 |---|---|
-| <img width="1272" height="1696" alt="WhatsApp Image 2026-05-13 at 22 33 33" src="https://github.com/user-attachments/assets/7020f011-6cab-476a-9c4e-360c6d51a901" /> | <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/7e46786f-7163-4b6f-bb2a-ba303ed64177" /> |
+| <img width="1272" height="1696" alt="WhatsApp Image 2026-05-13 at 22 33 33" src="https://github.com/user-attachments/assets/7020f011-6cab-476a-9c4e-360c6d51a901" /> | <img width="1272" height="1696" alt="image" src="https://github.com/user-attachments/assets/7e46786f-7163-4b6f-bb2a-ba303ed64177" /> |
 
+2160, 2880
 ## Competition Overview
 IMC Prosperity 4 was an online quantitative trading competition for university students, hosted in April 2026. It consisted of two official phases and five official rounds, where Phase 1 (Rounds 1 & 2, each 72 hours) required teams to obtain a **score of 200,000 XIRECs to qualify** for Phase 2 (Rounds 3, 4 & 5, each 48 hours). Each round was split into an algorithmic (Python) challenge and a manual challenge. 
 
@@ -347,4 +350,5 @@ Draft
 - Make data-driven decisions. If something looks like it confirms your hypothesis, make sure you also have evidence to PROVE this. Else this is confirmation bias.
 - Prepare. Make sure you know your stuff and have the analytical architecture prepared. Backtester super important.
 - Expected Value mindset
-- 
+- use AI to help analysis, but don't use it to implement coding logic - look at us
+- prepare against overfit (Round 5)
