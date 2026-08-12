@@ -1,4 +1,5 @@
-# Round 4, voucher risk-hardening research candidate.
+# Round 4, Final Algorithm
+# Boucher risk-hardening research candidate.
 # Built on top of the FROZEN Hydro v2 + VELVET M4 candidate. Both legs are
 # preserved exactly. Vouchers keep the old M0 z-score engine by default, with
 # targeted risk-hardening modes controlled by VOUCHER_RISK.
